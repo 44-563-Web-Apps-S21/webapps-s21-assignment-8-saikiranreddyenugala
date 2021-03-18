@@ -11,9 +11,9 @@ const server =
 
       res.write('<html> <head> <title> Served </title> </head>')
       res.write('<body>')
-      res.write('Content \n')
-      res.write('More content \n')
-      res.write('Hello World')    
+      res.write('<table><tr><th>Location</th><th>Spending Hours</th><th>Amount to be spent</th></tr><tr><td>banglore</td><td>15</td><td>100$</td></tr>')
+     res.write('<tr><td>Hyderabad</td><td>24</td><td>150$ </td></tr><tr><td>Warangal</td><td>5</td><td>80$</td></tr>')
+     res.write('<tr><td>Mumbai</td><td>48</td><td>3000$</td></tr></table>')
       res.end('</body></html>')
       //Close the response
     }                           
