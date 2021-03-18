@@ -18,7 +18,7 @@
             const remoteCompute=()=>{
                 let number1=document.getElementById("number1").value
                 let number2=document.getElementById("number2").value
-                let url=`http://127.0.0.1:3001?x=${x=number1}&y=${number2}`
+                let url=`http://127.0.0.1:3001?x=${x=number1}&y=${y=number2}`
                 fetch(url).then(
                     (response)=>{
                         console.log(response)
